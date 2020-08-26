@@ -193,6 +193,7 @@ nav .container {
 }
 
 .big-title {
+  cursor: pointer;
   position: absolute;
   z-index: 30;
   line-height: 4rem;
@@ -248,6 +249,7 @@ section .container>* {
   position: relative;
   letter-spacing: .15em;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .border {
@@ -392,6 +394,7 @@ section .container>* {
   margin: 0 auto;
   text-align: center;
   margin-bottom: 8vh;
+  cursor: pointer;;
 }
 
 .row {
@@ -417,7 +420,13 @@ section .container>* {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  transition: 0.2s;
 }
+
+.column img:hover {
+  transform: scale(1.025);
+}
+
 
 /*===================testimonial====================*/
 
